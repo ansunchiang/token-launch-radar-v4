@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Token Radar: pre-token protocols ranked by implied value</title>
-<link rel="stylesheet" href="app.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'">
+  <title>Forward Window v4 · Token launch radar</title>
+  <link rel="stylesheet" href="app.css">
+  <script src="model.js" defer></script>
+  <script src="../data.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#board">Skip to the board</a>
-<main id="board" tabindex="-1" aria-busy="true"></main>
-<script src="../data.js"></script>
-<script src="app.js"></script>
+  <a class="skip" href="#content">Skip to dashboard</a>
+  <div id="app"><main id="content" class="loading">Refitting the sealed snapshot…</main></div>
 </body>
 </html>
